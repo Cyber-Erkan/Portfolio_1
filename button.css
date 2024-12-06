@@ -1,0 +1,81 @@
+input {
+    all: unset;
+    font-family: inherit;
+
+    display: block;
+
+    padding: 1rem 2rem;
+
+    font-weight: 500;
+
+    color: white;
+    background-color: rgb(24, 209, 113);
+    
+    border-radius: 333rem;
+
+    box-shadow: 0 4px 4px hsla(149 93% 12% / 0.2);
+
+    cursor: pointer;    
+}
+
+.btn-primary,
+.btn-secondary {
+    outline: 1px solid hsl(149 73% 43% / 1);
+}
+
+
+.btn-secondary {
+    background-color: transparent;
+
+    box-shadow: none;
+
+    color: hsl(149 73% 43% / 1);
+}
+
+.btn-tertiary {
+    color: black;
+    background-color: transparent;
+    box-shadow: none;
+}
+
+.btn-primary:hover,
+.btn-secondary:hover {
+    background: linear-gradient(to top, rgb(5, 238, 118), hsl(147, 81%, 65%));
+    color: white;
+}
+
+
+.btn-tertiary:hover {
+    outline: 1px solid hsl(149 73% 43% / 1);
+}
+
+.btn-secondary:active {
+ 
+    background: linear-gradient(to bottom, rgb(5, 238, 118), hsl(147, 81%, 65%));
+
+}
+
+.btn-primary:active {
+    background: linear-gradient(to bottom, rgb(5, 238, 118), hsl(147, 81%, 65%));
+    box-shadow: 0 1px 1px hsla(149 93% 12% / 0.3);
+}
+
+
+.takete {
+    border-radius: 0%;
+
+}
+
+.takete:hover {
+    background: rgb(5, 238, 118);
+}
+
+
+.takete:active {
+    background:  hsl(149 96%  48% / 0.7);
+}
+
+.takete:last-child:hover {
+    background: transparent;
+  
+} 
